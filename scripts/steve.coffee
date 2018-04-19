@@ -9,7 +9,7 @@ module.exports = (robot) ->
   robot.hear /scary/i, (res) ->
     res.send "https://giphy.com/gifs/WmAjwStxdPXfq/html5"
 
-  robot.hear /really?/i, (res) ->
+  robot.hear /really\?/i, (res) ->
     res.send "sounds like a bunch of mumbo jumbo trash to me"
 
   robot.hear /nap|sleepy/i, (res) ->
